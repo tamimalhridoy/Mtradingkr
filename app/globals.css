@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  /* Brand pulled from your logo */
+  --brand-50: 245 247 255;
+  --brand-100: 225 232 255;
+  --brand-600: 31 64 140;
+  --brand-700: 21 52 120;
+  --brand-800: 15 42 95;   /* primary */
+  --brand-900: 10 30 70;
+  --brand-accent: 209 173 85; /* gold */
+}
+
+html, body{
+  height:100%;
+}
+
+body{
+  @apply bg-white text-slate-900 antialiased;
+}
+
+.container{
+  @apply mx-auto w-full max-w-6xl px-4;
+}
+
+a{
+  @apply text-brand-800 hover:text-brand-700;
+}
+
+@keyframes floaty { 0%,100%{ transform: translateY(0);} 50%{ transform: translateY(-10px);} }
+.floaty{ animation: floaty 7s ease-in-out infinite; }
