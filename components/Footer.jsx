@@ -9,7 +9,7 @@ export function Footer() {
           <div className="text-lg font-semibold text-slate-900">{site.name}</div>
           <p className="mt-2 text-sm text-slate-600">{site.tagline}</p>
           <p className="mt-4 text-sm text-slate-600">
-            Reliable sourcing, trading, and shipment coordination — built for long-term partnerships.
+            Reliable sourcing, trading, and shipment coordination built for long-term partnerships.
           </p>
         </div>
 
